@@ -18,7 +18,6 @@ Install:
 
 Links:
 -----
- - **Demo:** http://aamirafridi.com/jquery/jquery-marquee-plugin#examples
  - **jsFiddle:** http://jsfiddle.net/aamir/jc7F3/285/ to help you explain any issues you might face.
 
 Options:
@@ -178,7 +177,6 @@ $('.someLink').click(function(){
 ```
 
 Change content and re-apply the plugin.
-Check demo page for example: http://aamirafridi.com/jquery/jquery-marquee-plugin#examples
 ```javascript
 $('.marquee')
 	.bind('finished', function(){
@@ -194,8 +192,6 @@ $('.marquee')
 ```
 
 ### How to Use Events:
-
-Check demo page for example: http://aamirafridi.com/jquery/jquery-marquee-plugin#examples
 
 ```javascript
 $('.marquee')
@@ -243,16 +239,12 @@ Now plugin have new option: **startVisible** The marquee will be visible in the 
 
 **PLEASE report any bugs you find.**
 
-For details please check the demos at: http://aamirafridi.com/jquery/jquery-marquee-plugin#examples
-
 **Update (20 Dec 2013):**
 Now the plugin will detect if browser supports CSS3 animations than it will animate the element using CSS3 which will perform much better than animating using jQuery.
 
 The ```pauseOnHover``` also works using CSS3. The plugin just prepares the setup and required CSS3 animation CSS.
 
 Due to some reasons if you want plugin to animate always using jQuery than you need to set ```allowCss3Support``` option to ```false```. Also an extra option ```css3easing``` is added.
-
-Check demo page for example: http://aamirafridi.com/jquery/jquery-marquee-plugin#examples
 
 
 **Update (27 Nov 2013):**
